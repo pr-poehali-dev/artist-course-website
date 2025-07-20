@@ -18,7 +18,14 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'playfair': ['Playfair Display', 'serif'],
+				'open-sans': ['Open Sans', 'sans-serif'],
+			},
 			colors: {
+				'art-pink': '#E91E63',
+				'art-purple': '#8E24AA',
+				'art-gray': '#37474F',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
